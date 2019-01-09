@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import  {Flex, Div} from '../containers/Styled-comp/grid'
-
+import  {Flex, Div} from '../Styled-comp/grid'
 export const SocialLinksStyle = styled(Flex)`
 
 a {

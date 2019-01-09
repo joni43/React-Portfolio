@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import  {Flex, Div} from '../containers/Styled-comp/grid'
+import  {Flex, Div} from '../Styled-comp/grid'
 import {Link} from 'react-router'
 
 export const NavigationContainer = styled(Flex)`
