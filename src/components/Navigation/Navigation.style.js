@@ -14,6 +14,7 @@ export const NavItem = styled(Link)`
 margin-right:30px
 list-style-type: none;
 float: right;
+font-family: 'Roboto Mono', monospace;
 font-size:1.5em;
 cursor:pointer;
 
