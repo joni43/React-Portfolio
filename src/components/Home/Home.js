@@ -6,7 +6,7 @@ import SocialLinks from '../Socialicons/SocialLinks'
 
 export default function Home({ title, subtitle, dark, id }) {
     return (
-            <Container id={id}>
+            <Container id="home">
 
                 <ContainerImage>
                     <h1>Jonathan Nilsson</h1>

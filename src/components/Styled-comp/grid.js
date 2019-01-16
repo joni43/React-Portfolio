@@ -33,3 +33,7 @@ margin-right:auto;
 export const Flex = styled(Div)`
 position:relative;
 `
+export const Grid = styled(Div)`
+display:grid;
+grid-template-columns: 1fr 1fr
+`

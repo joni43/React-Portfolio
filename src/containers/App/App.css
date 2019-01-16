@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background:#efdfd1;
+
 }
+
 
 p {
   font-family: 'Roboto Mono', monospace;
@@ -16,4 +19,22 @@ section-dark {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+.Project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .Project-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  
+  }
 }

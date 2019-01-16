@@ -3,6 +3,8 @@ import './App.css';
 import Navigation from '../../components/Navigation/Navigation'
 import Home from '../../components/Home/Home'
 import Projects from '../../components/Projects/Projects'
+import About from '../../components/about/About'
+import Contact from '../../components/Contact/Contact'
 
 
 class App extends Component {
@@ -17,6 +19,10 @@ class App extends Component {
       id="projects"
       >
       </Projects>
+      <About
+      id="about"
+      ></About>
+      <Contact></Contact>
 
       {this.props.children}
       </div>
