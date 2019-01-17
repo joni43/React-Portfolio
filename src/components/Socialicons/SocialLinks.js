@@ -11,7 +11,7 @@ class SocialLinks extends Component {
             >
             < i className="fab fa-linkedin" aria-hidden="true" />
             </a>
-            
+
 
              {/** Github */}
              <a

@@ -6,6 +6,8 @@ import Projects from '../../components/Projects/Projects'
 import About from '../../components/about/About'
 import Contact from '../../components/Contact/Contact'
 import MarsAPI from '../../components/FetchApi/FetchApi'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 
 class App extends Component {
@@ -24,8 +26,9 @@ class App extends Component {
       <About
       id="about"
       ></About>
+        <MarsAPI></MarsAPI>
       <Contact></Contact>
-      <MarsAPI></MarsAPI>
+
 
 
       {this.props.children}

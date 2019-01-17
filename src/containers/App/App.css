@@ -29,7 +29,27 @@ section-dark {
 
 }
 
-
+.carousel.carousel-slider {
+  margin: 0;
+  margin-left: 400px;
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel .slider {
+margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    width: 100%;
+}  
+.Nasa-img {
+  width: 200%;
+  height: 200px;
+  size: 100px;
+  vertical-align: top;
+  /* border: 0; */
+}
 
 @media screen and (max-width: 800px) {
 
