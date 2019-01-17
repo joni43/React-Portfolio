@@ -5,12 +5,14 @@ import Home from '../../components/Home/Home'
 import Projects from '../../components/Projects/Projects'
 import About from '../../components/about/About'
 import Contact from '../../components/Contact/Contact'
+import MarsAPI from '../../components/FetchApi/FetchApi'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
       <Navigation/>
       <Home
       id="home"
@@ -23,6 +25,8 @@ class App extends Component {
       id="about"
       ></About>
       <Contact></Contact>
+      <MarsAPI></MarsAPI>
+
 
       {this.props.children}
       </div>

@@ -6,7 +6,7 @@ export const AboutSection = styled(Flex)`
 box-sizing: border-box
 max-width: 950px;
 margin: 0 auto;
-color:#FC4482;
+color:#d6b190;
 padding: 40px;
 padding-top:90px;
 background-color:#efdfd1;
