@@ -6,11 +6,15 @@ a {
 
     color:white;
     width:20%;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 3px;
 
     i {
         margin-right:20px
-
+        border-radius: 50%;
+        text-align: center;
+        padding: 1.1em;
+        color: brown;
+        cursor: pointer
         ;
         }`

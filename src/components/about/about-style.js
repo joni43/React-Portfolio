@@ -8,8 +8,9 @@ max-width: 950px;
 margin: 0 auto;
 color:#d6b190;
 padding: 40px;
+border-radius:40px
 padding-top:90px;
-background-color:#efdfd1;
+background-color:brown;
 align-self: center;
 padding-bottom:70px
 

@@ -13,7 +13,7 @@ color:white;
 position: fixed;
 left: 0;
 right: 0;
-background: #d1d5ef;
+background: #EEDDCF;
 padding: 10px;
 z-index: 99;
 margin-top: 0;
