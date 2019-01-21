@@ -17,11 +17,6 @@ section-dark {
   color: white;
 }
 
-.section-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-}
 .Project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -45,7 +45,8 @@ h1,h2,h3,h4,h5 {
     }
     li {
         display: list-item;
-    text-align: -webkit-match-parent;
+        text-align: -webkit-match-parent;
+        margin:20px;
 
     }
     .icon-list i p {

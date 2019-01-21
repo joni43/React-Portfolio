@@ -1,7 +1,9 @@
 
 import React, { Component } from 'react'
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText,CardActions, Button, CardMenu, IconButton} from 'react-mdl';
-import './projects.css'
+
+import {SectionContent} from './Project-style'
+
 
 
 
@@ -122,7 +124,7 @@ toggleCategories () {
     console.log("id: " + this.props.id);
     return (
 
-      <div className="section-content" id={this.props.id}>
+      <SectionContent id={this.props.id}>
         <Tabs
              className="projects"
             activeTab={this.state.activeTab}
@@ -142,7 +144,7 @@ toggleCategories () {
           </Grid>
 
 
-           </div>
+           </SectionContent>
 
     ) }
 
