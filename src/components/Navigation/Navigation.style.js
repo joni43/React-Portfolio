@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import  {Flex, Div} from '../Styled-comp/grid'
+import  {Flex} from '../Styled-comp/grid'
 import { Link } from "react-scroll"
 
 export const NavigationContainer = styled(Flex)`
@@ -16,11 +16,10 @@ right: 0;
 background: #EEDDCF;
 padding: 10px;
 z-index: 99;
-margin-top: 0;
+margin-top: -21px;
 `
 
 export const NavItem = styled(Link)`
-
 list-style-type: none;
 margin: 10px;
 color:#D5B192;
@@ -30,9 +29,8 @@ cursor:pointer;
 
 &:hover {
     color:white;
-    background-color:#804614;;
-    // z-index:-1;
-    transform:scale(1.2)
+    background-color:#804614;
+    transform:scale(1.2);
 }
 
 `

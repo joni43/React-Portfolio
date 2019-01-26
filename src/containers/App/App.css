@@ -3,7 +3,10 @@
   background:#efdfd1;
 
 }
-
+.fa, .fas {
+  font-weight: 900;
+  font-size: 25px;
+}
 
 p {
   font-family: 'Roboto Mono', monospace;

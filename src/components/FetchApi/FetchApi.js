@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { CarouselContainer } from "./FetchAPI-style";
 
-class MarsAPI extends Component {
-  constructor() {
-    super();
-    this.state = {
-      images: []
-    };
-  }
+class NasaAPI extends Component {
+  state = {
+    images: []
+  };
 
   componentDidMount() {
     fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=5")
@@ -50,4 +47,4 @@ class MarsAPI extends Component {
   }
 }
 
-export default MarsAPI;
+export default NasaAPI;

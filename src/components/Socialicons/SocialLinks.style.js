@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import  {Flex, Div} from '../Styled-comp/grid'
+import  {Flex} from '../Styled-comp/grid'
+
 export const SocialLinksStyle = styled(Flex)`
 
 a {
@@ -10,11 +11,12 @@ a {
     padding: 3px;
 
     i {
-        margin-right:20px
+        margin-right:20px;
         border-radius: 50%;
         text-align: center;
         padding: 1.1em;
         color: brown;
         cursor: pointer
         ;
-        }`
+        }
+`

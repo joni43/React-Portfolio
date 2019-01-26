@@ -5,7 +5,7 @@ import Home from '../../components/Home/Home'
 import Projects from '../../components/Projects/Projects'
 import About from '../../components/about/About'
 import Contact from '../../components/Contact/Contact'
-import MarsAPI from '../../components/FetchApi/FetchApi'
+import NasaAPI from '../../components/FetchApi/FetchApi'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -25,8 +25,10 @@ class App extends Component {
       </Projects>
       <About
       id="about"
-      ></About>
-        <MarsAPI></MarsAPI>
+      >
+      </About>
+     
+        <NasaAPI></NasaAPI>
       <Contact></Contact>
 
 

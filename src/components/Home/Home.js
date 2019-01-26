@@ -1,19 +1,15 @@
-import React, { Component, PropTypes} from 'react'
-import styled from 'styled-components'
-import {Container} from '../Styled-comp/grid'
-import {Image, ContainerImage} from './Home-style'
-// import SocialLinks from '../Socialicons/SocialLinks'
+import React from "react";
+import { Container } from "../Styled-comp/grid";
+import { ContainerImage } from "./Home-style";
 
-export default function Home({ title, subtitle, dark, id }) {
-    return (
-            <Container id="home">
 
-                <ContainerImage>
-                    <h1>Jonathan Nilsson</h1>
-                    <h2>Front-end Developer</h2>
+const Home = () => (
+  <Container id="home">
+    <ContainerImage>
+      <h1>Jonathan Nilsson</h1>
+      <h2>Front-end Developer</h2>
+    </ContainerImage>
+  </Container>
+);
 
-                </ContainerImage>
-
-                </Container>
-        )
-    }
+export default Home;

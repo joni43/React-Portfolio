@@ -1,22 +1,15 @@
-import React, { Component } from 'react'
+import React from "react";
 
-import {Footer, Name} from './Contact-style'
-import SocialLinks from '../Socialicons/SocialLinks'
+import { Footer, Name } from "./Contact-style";
+import SocialLinks from "../Socialicons/SocialLinks";
 
-class About extends Component {
-    render() {
-        return(
-            <Footer>
+const About = () => (
+  <Footer id="contact">
+    <Name>
+      <h3>©2019 Jonathan Nilsson</h3>
+      <SocialLinks />
+    </Name>
+  </Footer>
+);
 
-            <Name>
-                <h3>©2019 Jonathan Nilsson</h3>
-
-                <SocialLinks></SocialLinks>
-            </Name>
-            </Footer>
-        )
-    }
-
-
-}
-export default About
+export default About;
