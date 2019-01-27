@@ -1,5 +1,5 @@
 
-# Version 1 - Jonathan First React Page
+# Version 1 - Jonathans First React Application
 
 First release of my portfolio page. This was my very first react application, and it´s a single page application. It was made during my time at KYH - Front End developer education. I call it version 1, because i am far finish with this portfolio. 
 I will most likely in the near future change design and make it more proffesional.
