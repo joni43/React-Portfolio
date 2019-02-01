@@ -12,6 +12,11 @@ import {
   CardMenu,
   IconButton
 } from "react-mdl";
+import { Link } from 'react-router-dom'
+
+import { BrowserRouter } from 'react-router-dom'
+
+
 
 import { SectionContent } from "./Project-style";
 
@@ -25,6 +30,7 @@ class ProjectSection extends Component {
     switch (this.state.activeTab) {
       case 0:
         return (
+
           /* Projects NodeJS/BACKEND #1 */
           <div className="Project-grid">
             <Card shadow={5} style={{ minWidth: "400", margin: "auto" }}>
@@ -45,9 +51,9 @@ class ProjectSection extends Component {
                 score on localstorage.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+
+                <Button colored href="https://github.com/1dv022/jl224dq-examination-2" target="_blank">Github</Button>
+
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -73,9 +79,9 @@ class ProjectSection extends Component {
                 application into production in a secure way.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+
+              <Button colored href="https://github.com/1dv023/jl224dq-examination-3" target="_blank">Github</Button>
+
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -101,9 +107,8 @@ class ProjectSection extends Component {
                 github user and get their latest repos and info.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+              <Button colored href="https://github.com/joni43/githubfinder" target="_blank">Github</Button>
+
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -131,9 +136,7 @@ class ProjectSection extends Component {
                 My first React project was actually this portfolio.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+              <Button colored href="https://github.com/joni43/React-Portfolio" target="_blank">Github</Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -163,15 +166,14 @@ class ProjectSection extends Component {
                 without framework or library.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+              <Button colored href="https://github.com/joni43/Aries" target="_blank">Github</Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
           </div>
+
         );
     }
   }
