@@ -5,7 +5,6 @@ First release of my portfolio page. This was my very first react application, an
 I will most likely in the near future change design and make it more proffesional.
 
 
-
 ## Libraries
 Im using react libraries, which you can see in package.json file.
 
