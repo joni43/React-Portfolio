@@ -14,4 +14,3 @@ Most of my styling is made with Styled componets. It lets you write actual CSS i
 
 At the bottom of the page i am displaying image which i have fetch from NASA API, reason why is because it was one of the requirement in this course, to fetch API. And i choosed to fetch NASA images. 
 
-
